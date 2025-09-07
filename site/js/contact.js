@@ -35,7 +35,7 @@ if (form) {
     };
  
     try {
-      const r = await fetch('https://RENDER_URL_HERE/api/contact', {
+      const r = await fetch('https://modus-electronics.onrender.com/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
@@ -48,7 +48,7 @@ if (form) {
       form.reset();
     } catch (err) {
       resp.style.color = '#ff9b9b';
-      resp.textContent = 'Something went wrong. Please email sales@yourdomain.com';
+      resp.textContent = 'Something went wrong. Please email mahirdhariwal@gmail.com';
       console.error(err);
     }
   });
