@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Modus Electronics</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head><body>
+<header class="site-header"><div class="container nav">
+  <a href="index.html" class="brand"><span class="brand-mark">M</span><span class="brand-text">Modus Electronics</span></a>
+  <button class="nav-toggle" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="products.html">Products</a>
+    <a href="industries.html">Industries</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" class="btn btn-outline">Contact</a>
+    <a href="contact.html" class="btn btn-accent hide-on-mobile">Get Quote</a>
+  </nav>
+</div></header>
+ 
+<main>
+<section class="hero is-section" data-accent="tele">
+  <div class="hero-media"><div class="orb orb-1"></div><div class="orb orb-2"></div><div class="grid"></div><div class="glow"></div></div>
+  <div class="container hero-inner">
+    <h1 class="headline reveal">Contact <span class="gradient-text">Sales</span></h1>
+    <p class="lede reveal delay-1">Tell us what you need. We’ll respond promptly.</p>
+  </div>
+</section>
+ 
+<section class="section">
+  <div class="container">
+    <form class="form-grid reveal" id="contactForm" novalidate>
+      <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name" required /><small class="error"></small></div>
+      <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@company.com" required /><small class="error"></small></div>
+      <div class="field"><label for="company">Company</label><input id="company" name="company" type="text" placeholder="Company name" /><small class="error"></small></div>
+      <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="text" placeholder="+91…" /><small class="error"></small></div>
+      <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="6" placeholder="Share parts, quantities, timelines…" required></textarea><small class="error"></small></div>
+      <div class="form-actions"><button class="btn btn-accent" type="submit">Send Message</button><p id="formResponse" class="form-response" role="status" aria-live="polite"></p></div>
+    </form>
+  </div>
+</section>
+</main>
+ 
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><a href="index.html" class="brand brand-footer"><span class="brand-mark">M</span><span class="brand-text">Modus Electronics</span></a><p class="muted footer-lede">Trusted partner for electronic components across India.</p></div>
+    <nav class="footer-links" aria-label="Footer">
+      <div><h4>Company</h4><a href="about.html">About</a><a href="industries.html">Industries</a><a href="contact.html">Careers</a></div>
+      <div><h4>Products</h4><a href="products.html">Semiconductors</a><a href="products.html">Passives</a><a href="products.html">Connectors</a><a href="products.html">Power</a></div>
+      <div><h4>Contact</h4><a href="contact.html">Sales</a><a href="contact.html">Support</a><a href="contact.html">Request Quote</a></div>
+    </nav>
+  </div>
+  <div class="legal"><div class="container"><p>© <span id="year"></span> Modus Electronics.</p></div></div>
+</footer>
+<script src="js/main.js" defer></script>
+<script src="js/contact.js" defer></script>
+</body></html>
